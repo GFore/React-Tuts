@@ -4,8 +4,10 @@ import './App.css';
 
 class App extends Component {
   render() {
+    let word = "World!";
     return (
       <div className="App">
+        <h1>Hello {word}</h1>
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

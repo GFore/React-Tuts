@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import KanbanBoard from './KanbanBoard';
+
+let cardsList = [
+  {
+    id: 1,
+    title: "Read the Book",
+    description: "I should read the who book",
+    status: "in-progress",
+    tasks: []
+  }
+]
 
 class App extends Component {
   render() {

@@ -10,6 +10,29 @@ let cardsList = [
     description: "I should read the who book",
     status: "in-progress",
     tasks: []
+  },
+  {
+    id: 2,
+    title: "Write some code",
+    description: "Code along with some samples in the book",
+    status: "todo",
+    tasks: [
+      {
+        id: 1,
+        name: "ContactList Example",
+        done: true
+      },
+      {
+        id: 2,
+        name: "Kanban Example",
+        done: false
+      },
+      {
+        id: 3,
+        name: "My own experiments",
+        done: false
+      }
+    ]
   }
 ]
 
@@ -17,13 +40,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello ord</h1>
-        <ul>
-          <ListItem quantity="1">Bread</ListItem>
-          <ListItem quantity="6">Eggs</ListItem>
-          <ListItem quantity="2">Milk</ListItem>
-        </ul>
-
+        <h1>Kanban Board</h1>
+        <KanbanBoard cards={cardsList} />
       </div>
     );
   }

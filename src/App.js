@@ -47,18 +47,19 @@ class App extends Component {
   }
 }
 
-class ListItem extends Component {
-  render() {
-    console.log(this.props);
-    return (
-      <li>
-        {this.props.quantity} x {this.props.children}
-      </li>
-    );
-  }
-}
-
 export default App;
+
+// class ListItem extends Component {
+//   render() {
+//     console.log(this.props);
+//     return (
+//       <li>
+//         {this.props.quantity} x {this.props.children}
+//       </li>
+//     );
+//   }
+// }
+
 
 
 // <header className="App-header">

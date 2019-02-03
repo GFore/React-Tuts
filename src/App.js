@@ -7,7 +7,7 @@ let cardsList = [
   {
     id: 1,
     title: "Read the Book",
-    description: "I should read the who book",
+    description: "I should read the whole book",
     status: "in-progress",
     tasks: []
   },

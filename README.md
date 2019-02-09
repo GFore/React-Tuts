@@ -1,3 +1,6 @@
+Sample Kanban project from the book **Pro React** by Cassio de Sousa Antonio
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -90,3 +90,11 @@ ul {
   font-size: 0.6em;
   margin-left: 3px;
 }
+
+.checklist--add-task {
+  border: 1px dashed #bbb;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
